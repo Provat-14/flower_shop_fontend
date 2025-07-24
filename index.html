@@ -10,17 +10,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <script>  
-        </script>
-        <style>
-            body {
-                font-family: 'Inter', sans-serif;
-            }
-            h1,h2,h3,h4,h5,h6 {
-                font-family: 'Noto Serif', serif;
-            }
-
-        </style>
+        
     </head>
     <body class="bg-[#f5f7fc] font-poppins ">
         <header class="container mx-auto py-6 px-4 md:px-0 max-w-[1140px] h-[71px]">
@@ -32,12 +22,12 @@
                 <div class="flex items-center space-x-8">
                     <nav class="hidden md:flex space-x-8 text-gray-700 font-medium">
                         <a href="#" class="text-black font-bold">Home</a>
-                        <a href="#">Shop</a>
+                        <a href="#product-section">Shop</a>
                         <a href="#">About us</a>
                     </nav>
-                    <a href="" >
+                    <a href="#" id="cart-info">
                         <img src="./assets/img/icon-card.png" alt="" class="w-5 h-5 inline-block">
-                        <span>Cart ($56)</span>
+                        <span>Cart ($0)</span>
                     </a>
                 </div>
             </div>
@@ -62,71 +52,21 @@
             </div>
         </section>
 
-        <section class="max-w-[1140px] mx-auto md:py-16 px-4 md:px-0">
+        <!-- Product section  -->
+        <section class="max-w-[1140px] mx-auto md:py-16 px-4 md:px-0" id="product-section">
             <div class="container mx-auto py-6 text-center md:mb-[105.06px]">
-                <!-- Title + Description -->
                 <div class="flex flex-col justify-center items-center mb-6">
                     <h2 class="text-[32px] md:text-6xl font-bold mb-4 text-orange-600"> Our <span class="text-black">Plants</span>
                     </h2>
                     <p class="text-black/50 text-[16px] md:text-[22px] max-w-3xl mx-auto"> Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh. </p>
                 </div>
-                <!-- Product Grid -->
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-5 w-full">
-                    <!-- Repeat this product card -->
-                    <div>
-                        <img src="./assets/img/sample-flower-image.png" alt="Product 1" class="w-full h-[322.94px] object-cover">
-                        <h3 class="text-[22px] font-medium mt-4 text-[#111]">Lily Blossom</h3>
-                        <p class="text-[#111] font-bold text-[22px] mt-2">20 USD</p>
-                        <button class="w-full mt-4 bg-orange-600 text-white px-4 py-2  hover:bg-orange-700"> Add to Cart </button>
-                    </div>
-                    <div class="">
-                        <img src="./assets/img/sample-flower-image.png" alt="Product 1" class="w-full h-[322.94px] ">
-                        <h3 class="text-[22px] font-medium mt-4 text-[#111]">Lily Blossom</h3>
-                        <p class="text-[#111] font-bold text-[22px] mt-2 ">20 USD</p>
-                        <button class="w-full mt-4 bg-orange-600 text-white px-4 py-2  hover:bg-orange-700">Add to Cart</button>
-                    </div>
-                    <div class="">
-                        <img src="./assets/img/sample-flower-image.png" alt="Product 1" class="w-full h-[322.94px] ">
-                        <h3 class="text-[22px] font-medium mt-4 text-[#111]">Lily Blossom</h3>
-                        <p class="text-[#111] font-bold text-[22px] mt-2 ">20 USD</p>
-                        <button class="w-full mt-4 bg-orange-600 text-white px-4 py-2  hover:bg-orange-700">Add to Cart</button>
-                    </div>
-                    <div class="">
-                        <img src="./assets/img/sample-flower-image.png" alt="Product 1" class="w-full h-[322.94px] ">
-                        <h3 class="text-[22px] font-medium mt-4 text-[#111]">Lily Blossom</h3>
-                        <p class="text-[#111] font-bold text-[22px] mt-2 ">20 USD</p>
-                        <button class="w-full mt-4 bg-orange-600 text-white px-4 py-2  hover:bg-orange-700">Add to Cart</button>
-                    </div>
-                    <div class="">
-                        <img src="./assets/img/sample-flower-image.png" alt="Product 1" class="w-full h-[322.94px] ">
-                        <h3 class="text-[22px] font-medium mt-4 text-[#111]">Lily Blossom</h3>
-                        <p class="text-[#111] font-bold text-[22px] mt-2 ">20 USD</p>
-                        <button class="w-full mt-4 bg-orange-600 text-white px-4 py-2  hover:bg-orange-700">Add to Cart</button>
-                    </div>
-                    <div class="">
-                        <img src="./assets/img/sample-flower-image.png" alt="Product 1" class="w-full h-[322.94px] ">
-                        <h3 class="text-[22px] font-medium mt-4 text-[#111]">Lily Blossom</h3>
-                        <p class="text-[#111] font-bold text-[22px] mt-2 ">20 USD</p>
-                        <button class="w-full mt-4 bg-orange-600 text-white px-4 py-2  hover:bg-orange-700">Add to Cart</button>
-                    </div>
-                    <div class="">
-                        <img src="./assets/img/sample-flower-image.png" alt="Product 1" class="w-full h-[322.94px] ">
-                        <h3 class="text-[22px] font-medium mt-4 text-[#111]">Lily Blossom</h3>
-                        <p class="text-[#111] font-bold text-[22px] mt-2 ">20 USD</p>
-                        <button class="w-full mt-4 bg-orange-600 text-white px-4 py-2  hover:bg-orange-700">Add to Cart</button>
-                    </div>
-                    <div class="">
-                        <img src="./assets/img/sample-flower-image.png" alt="Product 1" class="w-full h-[322.94px] ">
-                        <h3 class="text-[22px] font-medium mt-4 text-[#111]">Lily Blossom</h3>
-                        <p class="text-[#111] font-bold text-[22px] mt-2 ">20 USD</p>
-                        <button class="w-full mt-4 bg-orange-600 text-white px-4 py-2  hover:bg-orange-700">Add to Cart</button>
-                    </div>
-                    
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-5 w-full" id="product-grid">                                      
                 </div>
             </div>
 
         </section>
 
+        <!-- flowers and plants section -->
         <section class="container max-w-[1140px] mx-auto py-10 px-4 md:px-0 flex flex-col lg:flex-row justify-between items-center" id="flower-lover">
             
             <div class="relative w-full lg:w-[49%] flex justify-center items-start">
@@ -141,7 +81,7 @@
                     Flowers & Plants Lover
                 </h2>
                 <ul class="text-gray-600 space-y-4 text-left pl-10 md:pl-20">
-                    <li class="text-base sm:text-lg md:text-2xl text-black/50 list-disc">
+                    <li class="text-base sm:text-lg md:text-2xl text-black/50 list-disc ">
                         Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
                     </li>
                     <li class="text-base sm:text-lg md:text-2xl text-black/50 list-disc">
@@ -154,8 +94,7 @@
             </div>
         </section>
 
-
-
+        <!-- Latest Deals Section -->
         <section class="max-w-[1140px] mx-auto py-16 px-4 md:px-0">     
             <div class="flex flex-col justify-center items-center mb-6">
                 <h2 class="text-[32px] md:text-[50px] font-bold mb-4 text-orange-600">Latest <span class="text-black">Deals</span></h2>
@@ -164,14 +103,14 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 py-16">
                 <!-- Left: Two Cards -->
                 <div class="flex flex-col gap-6 md:col-span-1">
-                    <div class="relative rounded-xl overflow-hidden h-56 md:h-58">
+                    <div class="relative rounded-xl overflow-hidden h-56 md:h-58 zoom-hover">
                         <img src="./assets/img/deal-bloom.png" alt="Bloom Plant" class="w-full h-full object-cover">
                         <div class="absolute inset-0 bg-black bg-opacity-30 flex flex-col justify-center items-center p-4 text-white">
                             <h3 class="text-lg font-semibold">60% Off | Bloom Plant</h3>
                             <button class="mt-2 underline font-semibold">Shop Now</button>
                         </div>
                     </div>
-                    <div class="relative rounded-xl overflow-hidden h-56 md:h-58">
+                    <div class="relative rounded-xl overflow-hidden h-56 md:h-58 zoom-hover">
                         <img src="./assets/img/deal-ana.png" alt="Ana Plant" class="w-full h-full object-cover">
                         <div class="absolute inset-0 bg-black bg-opacity-30 flex flex-col justify-center items-center p-4 text-white">
                             <h3 class="text-lg font-semibold">30% Off | Ana Plant</h3>
@@ -182,7 +121,7 @@
 
                 <!-- Right: Big Card Same Height -->
                 <div class="md:col-span-2 h-full">
-                    <div class="relative rounded-xl overflow-hidden w-full h-54 md:h-full ">
+                    <div class="relative rounded-xl overflow-hidden w-full h-54 md:h-full zoom-hover">
                         <img src="./assets/img/deal-zabo.png" alt="Zabo Plant" class="w-full md:h-full object-cover">
                         <div class="absolute inset-0 bg-black bg-opacity-30 flex flex-col justify-center items-center text-center text-white p-6">
                             <h3 class="text-2xl font-bold">25% Off | Zabo Plant</h3>
@@ -192,6 +131,8 @@
                 </div>
             </div>
         </section>
+
+        <!-- Newsletter Section -->
         <section class="bg-cover bg-center bg-no-repeat h-[276px] md:h-[533px] relative" style="background-image: url('./assets/img/news-letter-bg.png');">
             <div class="absolute inset-0 bg-black bg-opacity-25 flex flex-col justify-center items-center text-white">
                 <h2 class="text-2xl md:text-6xl font-bold mb-4">Join the colorful Bunch</h2>
@@ -202,6 +143,23 @@
             </div>
 
         </section>
+        
+        <!-- Toast Notification -->
+        <div id="toast-undo" class="hidden fixed top-5 left-5 z-50 flex items-center w-full max-w-xs p-4 text-orange-600 backdrop-blur-md  bg-transparent border border-white/20 rounded-lg shadow-md transition-transform" role="alert">
+            <div class="text-sm font-normal">🌸 Flower Added to Cart</div>
+            <div class="flex items-center ms-auto space-x-2 rtl:space-x-reverse">
+                <a class="text-sm font-medium text-blue-300 p-1.5 hover:bg-white/20 rounded-lg" href="#">View Cart</a>
+                <button onclick="hideToast()" type="button" class="bg-transparent text-gray-600 hover:text-red-400 rounded-lg p-1.5 h-8 w-8 inline-flex items-center justify-center">
+                    <span class="sr-only">Close</span>
+                    <svg class="w-3 h-3" fill="none" viewBox="0 0 14 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 1l6 6m0 0l6 6M7 7l6-6M7 7L1 13" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Footer Section -->
         <footer class="bg-gray-50 py-10 px-6 md:px-16">
             <div class="max-w-screen-xl mx-auto flex flex-col md:flex-row justify-between gap-10">
                 <!-- Logo & description -->
@@ -239,5 +197,7 @@
                 </div>
             </div>
         </footer>
+
+        <script src="./assets/js/app.js"></script>
     </body>
 </html>
